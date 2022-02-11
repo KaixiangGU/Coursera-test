@@ -1,0 +1,104 @@
+/** Header css **/
+.container-fluid {
+	padding: 0px;
+}
+.navbar-brand { /*** food,llc ***/
+	font-size: 2em;
+	font-weight: bold;
+	margin-left: 15px;
+}
+.navbar { 
+	padding: 0px;
+}
+.navbar-light { /***导航栏背景色***/
+	background-color: rgb(	180, 180, 180);
+}
+
+.navbar-light .navbar-toggler { /***Toggle Button***/
+	border: 3px solid var(--bs-dark);
+	height: 2.2em;
+	padding: 1px 8px;
+	margin-right: 10px;
+}
+
+.navbar-toggler-icon-container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content	:	space-evenly;
+}
+
+.navbar-toggler-icon { /***Toggle bars ***/
+	width: 100%;
+	height: 100%;
+}
+
+.icon-bar {
+	width: 20px;
+	height: 4px;
+	background-color: black;
+}
+
+.nav-link { /***Menu item***/
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.navbar-toggler:hover {
+	background-color: var(--bs-white);
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+	box-shadow: none;
+}
+
+
+
+ .navbar-nav { /***下拉菜单***/
+	margin-bottom: 0px !important;
+}
+
+.navbar-nav .nav-item { 
+	border: 1px solid var(--bs-dark);
+}
+
+
+
+/*** End of Header css ***/
+h1 { /*** Our Menu ***/
+	font-size: 1.6em;
+	text-align: center;
+	margin: 15px 0px;
+	font-weight: bold;
+}
+
+h2{ /***chicken subheading***/
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.flex-container1, .flex-container3, .flex-container5 {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container2, .flex-container4, .flex-container6 {
+	width: 80%;
+	height: 1000px;
+	background-color: rgb(180, 180, 180);
+	text-align: justify;
+	padding: 15px 15px 5px 15px;
+}
+
+
+/************* Desktop view **************/
+
+@media (min-width: 576px) {
+	.navbar-nav {
+		display: none;
+	}
+}
