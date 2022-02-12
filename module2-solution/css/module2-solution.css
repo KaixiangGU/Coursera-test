@@ -50,29 +50,28 @@
 		
 		/***** Browser *****/
 		@media (min-width: 992px){
-			div.chicken{
+
+			div.chicken, .beef, .sushi{
 				width: 30%;
 				float: left;
+				margin-right:5%;
 				}
-			div.beef{
-				width: 30%;
-				float: left;
-				margin-left: 60px;
-			}
+
+
 			div.sushi{
-				width: 30%;
 				float: right;
+				margin-right: 0px;
 			}
-      }
+
 
 		/***** Tablet *****/
 		@media (min-width: 768px) and (max-width: 991px){
 			div.chicken{
-				width: 45%;
+				width: 48%;
 				float: left;
 			}
 			div.beef{
-				width: 45%;
+				width: 48%;
 				float: right;
 			}
 			div.sushi{
